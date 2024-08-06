@@ -1,93 +1,181 @@
-<html>
-  <head>
-    <title>Meu site</title>
-  </head>
-<body>
-Aqui vai aparecer o conteúdo a página. Continuando.
-</body>
-</html>
-*{
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: 'Poppins', sans-serif;
-}
-.cabecalho {
-  background-color: #424E61;
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 24px 0;
-}
+<footer class="rodapé">
+  <h2 class="rodapé_titulo">Grupo Alura</h2>
+  <ul class="lista-rodapé"></ul>
+</footer>
+<footer class="rodapé">
+  <h2 class="rodapé_titulo">Grupo Alura</h2>
+  <ul class="lista-rodapé">
+    <li class="lista-rodapé_titulo">Educação</li>
+  </ul>
+</footer>
+<ul class="lista-rodapé">
+  <li class="lista-rodapé_titulo">Educação</li>
+  <li class="lista-rodapé__item">
+    <img src="img/Caelum.svg" alt="Logo da Caelum" />
+    <a href="#" class="lista-rodapé__link">Caelum</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do Código" />
+    <a href="#" class="lista-rodapé__link">Casa do Código</a>
+  </li>
+</ul>
+<ul class="lista-rodapé">
+  <li class="lista-rodapé__titulo">Educação</li>
+  <li class="lista-rodapé__item">
+    <img src="img/Caelum.svg" alt="Logo da Caelum" />
+    <a href="#" class="lista-rodapé__link">Caelum</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do Código" />
+    <a href="#" class="lista-rodapé__link">Casa do Código</a>
+  </li>
+</ul>
 
-.cabecalho-imagem{
-  width: 10%;
-}
+<ul class="lista-rodapé">
+  <li class="lista-rodapé__titulo">Educação online</li>
+  <li class="lista-rodapé__item">
+    <img src="img/Alura.svg" alt="Logo da Alura" />
+    <a href="#" class="lista-rodapé__link">Alura</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraParaEmpresas.svg" alt="Logo da AluraParaEmpresas" />
+    <a href="#" class="lista-rodapé__link">Alura para Empresas</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam" />
+    <a href="#" class="lista-rodapé__link">Alura LATAM</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraStart.svg" alt="Logo da Alura START" />
+    <a href="#" class="lista-rodapé__link">Alura Start</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/MusicDot.svg" alt="Logo da Music Dot" />
+    <a href="#" class="lista-rodapé__link">Music Dot</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua" />
+    <a href="#" class="lista-rodapé__link">Alura Língua</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/PM3.svg" alt="Logo da PM3" />
+    <a href="#" class="lista-rodapé__link">PM3</a>
+  </li>
+</ul>
 
-.cabecalho-lista-item{
-  display: inline-block;
-  margin: 0 16px;
-  font-size: 16px;
+<ul class="lista-rodapé">
+  <li class="lista-rodapé__titulo">Comunidade</li>
+  <li class="lista-rodapé__item">
+    <img src="img/HipstersTech.svg" alt="Logo do Hipsters ponto Tech" />
+    <a href="#" class="lista-rodapé__link">Hipsters ponto Tech</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/ScubaDev.svg" alt="Logo do Scuba Dev" />
+    <a href="#" class="lista-rodapé__link">Scuba Dev</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/LayersTech.svg" alt="Logo do Layers ponto Tech" />
+    <a href="#" class="lista-rodapé__link">Layers ponto Tech</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/LikeABoss.svg" alt="Logo do Like a Boss" />
+    <a href="#" class="lista-rodapé__link">Like a Boss</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img
+      src="img/CarreiraSemFronteira.svg"
+      alt="Logo do Carreira sem fronteiras"
+    />
+    <a href="#" class="lista-rodapé__link">Carreira sem fronteiras</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs" />
+    <a href="#" class="lista-rodapé__link">Hipsters ponto jobs</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/GUJ.svg" alt="Logo do GUJ" />
+    <a href="#" class="lista-rodapé__link">GUJ</a>
+  </li>
+</ul>
+@media screen and (min-width: 1024px) {
 }
-
-.escola-imagem{
-  width: 25%;
+@media screen and (min-width: 1024px) {
+  .rodapé {
+    display: flex;
+  }
 }
-
-.escola{
-  background-image: linear-gradient(#424E61,#16CFF8);
-  color:white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 24px 0;
+@media screen and (min-width: 1024px) {
+  .rodapé {
+    display: flex;
+    justify-content: space-around;
+  }
 }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
 
-.escola-div-conteudo{
-  width: 35%;
+  .lista-rodapé__item {
+    display: flex;
+    align-items: center;
+  }
 }
-
-
-.escola-titulo{
-  padding: 24px 0;
+:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --fonte-principal: "Poppins";
+  --azul: #002f52;
+  --fonte-secundario: "Josefin Sans";
+  --preto: #000000;
+  --cinza: #474646;
+  --cinza-claro: #858585;
 }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
 
-.estudante{
-  padding: 24px 0;
+  .lista-rodapé__link {
+    color: var(--cinza);
+    text-decoration: none;
+  }
 }
-.estudante-imagem{
-  width: 120px;
-}
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
 
-.estudante-icone{
-  width: 24px;
-  padding: 4px 8px;
+  .lista-rodapé__link {
+    color: var(--cinza);
+    text-decoration: none;
+    margin-left: 0.6em;
+  }
 }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
 
-.estudante-div{
-  text-align: center;
-  padding: 16px 0;
+  .lista-rodapé__item {
+    margin: 0.6em 0;
+  }
 }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
 
-.estudante-titulo{
-  text-align: center;
-  padding: 50px 0;
+  .lista-rodapé__titulo {
+    font-size: 14px;
+    color: var(--cinza-claro);
+  }
 }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
 
-.estudante-todos{
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  .rodapé__titulo {
+    font-size: 24px;
+  }
 }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
 
-.rodape{
-  background-color: black;
-  text-align: center;
+  .lista-rodapé {
+    display: block;
+  }
 }
-
-.rodape-imagem{
-  height: 60px;
-  padding: 12px 0;
- 
+.lista-rodapé {
+  display: none;
 }
